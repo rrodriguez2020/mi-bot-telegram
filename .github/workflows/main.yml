@@ -1,4 +1,4 @@
-:qname: CI a Docker Hub
+name: CI a Docker Hub
 
 on:
   push:
