@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bot-crypto:
+    container_name: crypto-roger-prod
+    # Puedes usar tu imagen local o la de Docker Hub
+    image: rogeralex/mi-bot-telegram:v7
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_TOKEN=tu_token_aqui_sin_comillas
+    # Opcional: si quieres que se auto-reconstruya si cambias el código
+    build:
+      context: .
+      dockerfile: Dockerfile
