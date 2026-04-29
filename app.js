@@ -8,8 +8,8 @@ const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: false });
 // Definir los pares de criptomonedas a monitorear y sus respectivos porcentajes mínimos
 const symbols = {
   'BTCUSDT': 2,
-  'ETHUSDT': 4,
-  'ADAUSDT': 4,
+  'ETHUSDT': 1,
+  'ADAUSDT': 1,
   'CHRUSDT': 4,
   'SOLUSDT': 3,
   'ALPHAUSDT': 4,
