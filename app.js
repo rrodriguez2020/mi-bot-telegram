@@ -51,7 +51,7 @@ const symbols = {
 };
 
 const checkInterval = 300000;  // 5 min
-const reportInterval = 2200000; // 30 min
+const reportInterval = 1600000; // 30 min
 
 const lastPrices = {};
 const lastNotificationTimes = {};
